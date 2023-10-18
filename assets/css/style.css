@@ -1064,6 +1064,11 @@ p {
 
 /*SMART PHONE ****  Media query for mobile phones and smaller */
 @media screen and (max-width: 575px) {
+
+    .logo {
+      
+       text-decoration: none;
+    }
     .hero-form button {
         width: 100%;
     }
@@ -1072,9 +1077,26 @@ p {
      
     }
 
-    .hero {
-        height: 350px;
+    .flex-row {
+        width: 100%;
     }
+    
+
+    .hero {
+        height: 600px;
+    }
+
+    .hero-cta{
+    
+        display: block;
+         width: 100%;
+         text-align: left;
+         margin: 1%;
+         color: #fff;
+        
+         line-height: 1.2;
+         background-color: rgb(255, 0, 0);
+     }
 
     .hero-cta-two{
         width:100%;
@@ -1086,8 +1108,142 @@ p {
         background-color: rgb(76, 187, 1);
     }
     
+    .hero-cta-three{
+    margin: auto;
+ 
+   text-align: center;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    font-size: 1.4em;
+  
+  
+    background-color: rgba(252, 250, 157, 0.966);
+}
 
 
+.banner {
+       
+    color: rgb(0, 0, 0);
+    background-color: rgb(253, 255, 126);
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    font-size: 30px;
+    width: 100%;
+    height: 10.0em;
+    background-color: #FED000;
+    align-content: center;
+    text-align: center;
+}
+
+.bannerbox img {
+   max-height: 3.5em;
+   
+   text-align: center;
+}
+
+.bannerbox{
+    width:100%;
+   text-align: center;
+   margin-bottom: -20px;
+   
+}
+
+.bannerboxtwo{
+    
+    text-align: center;
+ 
+   
+    width:100%;
+    
+    vertical-align: middle;
+  
+}
+.bannerboxthree{
+    float:right;
+    background:blue;
+    width:30%;
+    vertical-align: middle;
+    display: inline-block;
+border: 1px solid red;
+padding: 1rem 1rem;
+    
+}
+
+.banner-text{
+    font-size: 5.4vw;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+.button:hover {
+    background-color: #3a19ca;
+    color: white;
+  }
+
+.redstates {
+  
+    margin-left: 3px;
+    border: 1px solid red;
+
+    vertical-align: top;
+    background-color: red;
+    width: 100%;
+    color: #ffffff;
+    border-radius: 20px;
+    font-size: 3vw;
+}
+
+.greenstates {
+    margin-left: 3px;
+    margin-top: 30px;
+   
+    vertical-align: top;
+    background-color: green;
+    width: 100%;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 3vw;
+}
+
+.insurance-testimonial{
+    display: flex;
+  
+    width: 100%;
+   
+}
+
+
+.image-box {
+ 
+   display: none;
+ 
+  
+}
+
+
+.test-wordsbox {
+    color: #000000;
+    width: 90%;
+    float: left;
+   
+    font-size: 6.5vw;
+    font-style: italic;
+    background-color: #fff;
+   
+}
     .modal-content {
         
     width: 100%;
