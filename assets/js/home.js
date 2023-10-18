@@ -106,4 +106,4 @@ function businessBtn() {
 
 
         spcecialWordTwo()
-        setInterval(spcecialWordTwo, 1000);
+        setInterval(spcecialWordTwo, 600);

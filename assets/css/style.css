@@ -130,7 +130,9 @@ section {
 }
 
 .funfact {
-    height: 2em;
+align-items: right;
+    height: 3rem;
+    
 }
 
 /* Hero style image */
@@ -195,7 +197,7 @@ section {
 
 
     .banner {
-        height: 160px;
+       
         color: rgb(0, 0, 0);
         background-color: rgb(253, 255, 126);
         position: -webkit-sticky;
@@ -203,37 +205,131 @@ section {
         bottom: 0;
         font-size: 30px;
         width: 100%;
+        height: 4.0em;
+        background-color: #FED000;
+    }
+
+    .bannerbox img {
+       max-height: 3.5em;
+     
+    }
+
+    .bannerbox{
+        float:left; 
+        
+        width:30%;
+       
+    }
+
+    .bannerboxtwo{
+        float:left; 
+       padding-top: 1em;
+       
+        width:70%;
+        
+        vertical-align: middle;
+      
+    }
+    .bannerboxthree{
+        float:right;
+        background:blue;
+        width:30%;
+        vertical-align: middle;
+        display: inline-block;
+  border: 1px solid red;
+  padding: 1rem 1rem;
+        
+    }
+
+    .banner-text{
+        font-size: 1.4vw;
     }
   
-  
-    
+    .button {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 30px;
+    }
+
+    .button:hover {
+        background-color: #3a19ca;
+        color: white;
+      }
 
 .test-wordsbox {
     color: #000000;
     width: 90%;
     float: left;
     padding: 20px;
-    font-size: larger;
+    font-size: 1.5vw;
     font-style: italic;
     background-color: #fff;
     border-radius: 20px;
 }
 
 .hero-cta-three{
-   
+    margin: auto;
  
-  
+   text-align: center;
     color: rgb(0, 0, 0);
     position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 90%;
     font-size: 1.4em;
   
-    line-height: 1.2;
+  
     background-color: rgba(252, 250, 157, 0.966);
 }
 
 
+.stateboxes{
+    border: 3px solid black;
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+    background-color: #888;
+    border-radius: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.redstates {
+  
+    display: inline-block;
+    border: 1px solid red;
+    padding-left: 3rem;
+    vertical-align: top;
+    background-color: red;
+    width: 40%;
+    color: #ffffff;
+    border-radius: 20px;
+    font-size: 2vw;
+}
+
+.greenstates {
+    
+    margin-left: 5%;
+    display: inline-block;
+    padding-left: 3rem;
+    
+    vertical-align: top;
+    background-color: green;
+    width: 40%;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 2vw;
+}
+
+.pricingList{
+    font-size: .7em;
+    color: black;
+}
 
 
 a {
