@@ -1081,9 +1081,14 @@ p {
         width: 100%;
     }
     
-
+    .hero {
+ 
+  
+    }
     .hero {
         height: 600px;
+        background-image: url("../images/green-vs-red.png");
+        background-color: #000000;
     }
 
     .hero-cta{
@@ -1130,7 +1135,7 @@ p {
     position: -webkit-sticky;
     position: sticky;
     bottom: 0;
-    font-size: 30px;
+    font-size: 20px;
     width: 100%;
     height: 10.0em;
     background-color: #FED000;
@@ -1139,7 +1144,7 @@ p {
 }
 
 .bannerbox img {
-   max-height: 3.5em;
+   max-height: 4em;
    
    text-align: center;
 }
