@@ -250,6 +250,7 @@ align-items: right;
         border: none;
         color: white;
         padding: 15px 32px;
+        margin-left: 20px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
@@ -386,7 +387,7 @@ body p {
     margin: 0px;
 }
 
-.hero-form p {
+.hero-form {
     margin: 5px 0 15px 0;
 }
 .test-words {
@@ -1068,6 +1069,8 @@ p {
     .logo {
       
        text-decoration: none;
+       background-color: #024e76;
+       color: #FED000;
     }
     .hero-form button {
         width: 100%;
