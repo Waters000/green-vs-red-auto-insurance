@@ -9,6 +9,16 @@ var indivPricing = document.getElementById("indivPricing");
 var specialWordEl = document.getElementById("specialWord");
 var specialWordTwoEl = document.getElementById("specialWordTwo");
 
+var bannerIdEl = document.getElementById("bannerId");
+var insurifyLogoEl = document.getElementById("insurifyLogo");
+var insurifyImgEL = document.getElementById("insurify-logo img ");
+
+
+
+
+
+
+
 
 
 var specialWord = ["Florida ", "Louisiana ", "Deleware ", "Michigan ", "California ", "Kentucky ","Missouri ", "Nevada ", "New York ", "Nebraska ", "Colorado ", "New Jersey "]
@@ -72,6 +82,17 @@ function spcecialWordTwo() {
 }
 
 
+// show bottom banner after 5 seconds
+function showBanner() {
+  bannerIdEl.style.display = "block"
+  insurifyLogoEl.style.display = "block"
+  insurifyImgEL.style.display = "block"
+
+  return
+}
+
+
+
 
 
 // When the user clicks on <span> (x), close the modal
@@ -107,3 +128,9 @@ function businessBtn() {
 
         spcecialWordTwo()
         setInterval(spcecialWordTwo, 600);
+
+
+        
+        setInterval(showBanner, 12000);
+        
+        
