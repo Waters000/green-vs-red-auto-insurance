@@ -138,17 +138,16 @@ align-items: right;
 /* Hero style image */
 .hero {
  
-  
+    margin-top: 30px;
+    
     justify-content: center;
     flex-wrap: wrap;
     background-image: url("../images/green-vs-red.png");
     background-size: 52% auto;
-    background-position: 50% 10%;
-    position: relative;
+    background-position: 50% 5%;
+  
     background-repeat: no-repeat;
-    height: 500px;
-    background-attachment: fixed;
-    /* background-position: 80%; */
+    height: 400px;
 }
 .hero-cta{
     
@@ -186,6 +185,15 @@ align-items: right;
     width: 40%;
  
   
+}
+
+.header-save-big {
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 40px;
+    border: 5px solid rgb(195, 255, 0);
 }
 
 .test-image {
@@ -817,7 +825,7 @@ p {
   }
 
   .hero {
-    padding: 10px;
+    padding: 100px;
   
     justify-content: right;
   
