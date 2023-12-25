@@ -825,18 +825,16 @@ p {
   }
 
   .hero {
-    padding: 100px;
-  
-    justify-content: right;
-  
+    margin-top: 30px;
+    
+    justify-content: center;
+    flex-wrap: wrap;
     background-image: url("../images/green-vs-red.png");
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    align-items: flex-start;  
-    height: 850px;
-    background-attachment: fixed;
-    background-position: 80%;
+    background-size: 52% auto;
+    background-position: 50% 5%;
+  
+    background-repeat: no-repeat;
+    height: 400px;
 }
 
   header h1 {
@@ -908,19 +906,16 @@ p {
     width: 100%;
 }
 .hero {
-    padding: 20px;
-   
-    justify-content: right;
-  
+    margin-top: 60px;
+    
+    justify-content: center;
+    flex-wrap: wrap;
     background-image: url("../images/green-vs-red.png");
-    background-size:contain;
+    background-size: 52% auto;
+    background-position: 50% 5%;
+  
     background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
-    align-items: flex-start;  
-    height: 450px;
-    background-attachment: fixed;
-    background-position: 80%;
+    height: 400px;
 }
 
 
@@ -1097,11 +1092,13 @@ p {
 /*SMART PHONE ****  Media query for mobile phones and smaller */
 @media screen and (max-width: 575px) {
 
+  
+
+
     .logo {
       
        text-decoration: none;
-       background-color: #024e76;
-       color: #FED000;
+       color: #000000;
     }
     .hero-form button {
         width: 100%;
@@ -1115,36 +1112,15 @@ p {
         width: 100%;
     }
     
-    .hero {
- 
   
-    }
-    .hero {
-        height: 600px;
-        background-image: url("../images/green-vs-red.png");
-        background-color: #000000;
-    }
 
     .hero-cta{
-    
-        display: block;
-         width: 100%;
-         text-align: left;
-         margin: 1%;
-         color: #fff;
         
-         line-height: 1.2;
-         background-color: rgb(255, 0, 0);
+  
      }
 
     .hero-cta-two{
-        width:100%;
-        margin-top: auto;
       
-        color: white;
-       
-        line-height: 1.2;
-        background-color: rgb(76, 187, 1);
     }
     
     .hero-cta-three{
