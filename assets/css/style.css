@@ -25,11 +25,30 @@ h3 {
     color: black;
 }
 
+.updateauto {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 70px;
+    color: rgb(0, 0, 0);
+}
+
+.whydoes {
+    padding-bottom: 30px;
+    color: #000000;
+    font-size: 1.5em;
+    text-align: center;
+    /* font-style: italic; */
+    font-weight: bold;
+    text-shadow:1px 1px 10px #fffb0b, 1px 1px 10px #ccc;
+   text-align: right;
+   
+}
+
 
 /* padding top, right, bottom, left */
 header {
     padding: 20px 35px;
-    background-color: transparent;
+    background-color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -57,7 +76,7 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
 }
 
 header nav {
@@ -126,7 +145,8 @@ footer a {
 }
 
 section {
-    padding: 50px;
+  width: 80%;
+    margin: 0 auto;
 }
 
 .funfact {
@@ -135,38 +155,55 @@ align-items: right;
     
 }
 
+.logonav {
+    align-items: right;
+        height: 6rem;
+        
+    }
+
 /* Hero style image */
 .hero {
- 
-    margin-top: 30px;
-    
-    justify-content: center;
-    flex-wrap: wrap;
-    background-image: url("../images/green-vs-red.png");
-    background-size: 52% auto;
-    background-position: 50% 5%;
-  
-    background-repeat: no-repeat;
-    height: 400px;
+ margin: auto;
+background-color: orange;
+margin: auto;
 }
+
+.hero-map {
+  width: 80%;
+  border-radius: 30px;
+    /* //centering the image */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.map-section {
+    width: 90%;
+    margin: auto;
+   position: relative;
+   z-index: 1;
+
+}
+
+
 .hero-cta{
     
-   display: block;
-    width: 70%;
+    width: 80%;
     text-align: left;
-    margin: 1%;
     color: #000000;
    border-radius: 30px;
-    line-height: 1.2;
-  
+    font-size: .7em;
+   /* padding: 20px; */
     border: 3px solid rgb(255, 0, 0);
 }
 
 .hero-cta-two{
     width: 50%;
-    float: right;
+   
     text-align: left;
-    margin: -10px;
+
     color: rgb(0, 0, 0);
    border-radius: 30px;
     line-height: 1.2;
@@ -192,8 +229,10 @@ align-items: right;
     border-radius: 30px;
     text-align: center;
     font-size: 1.2rem;
-    margin: 40px;
+    padding-top: 1rem;
+    margin: 0% 10% 0 10%;
     border: 5px solid rgb(195, 255, 0);
+    background-color: #4CAF50;
 }
 
 .test-image {
@@ -302,9 +341,9 @@ align-items: right;
     margin: 1rem;
     padding: 2rem 2rem;
     text-align: center;
-    background-color: #888;
+    background-color: #ffffff;
     border-radius: 20px;
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 
@@ -336,7 +375,7 @@ align-items: right;
 }
 
 .pricingList{
-    font-size: .7em;
+    font-size: .4em;
     color: black;
 }
 
@@ -367,22 +406,58 @@ a {
 
 body p {
     color:var(--tertiary-color);
+    flex-wrap: wrap;
 }
 
 
+.hero-form-cta {
+    background-color: rgba(252, 111, 56, 0.8);
+    padding: 5px;
+    width: 60%;
+    
+    z-index: 2;
+    color: black;
+    border-style: solid;
+    border-width: 3px;
+    border-color: var(--secondary-color);
+  /* position: absolute; */
+   /* margin-top: 10px; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 5);
+    border-radius: 15px;
+   
+}
+
+.hero-form-cta-two {
+    background-color: rgba(56, 252, 66, 0.8);
+    /* padding: 5px; */
+    width: 60%;
+    text-align: right;
+    color: var(--secondary-color);
+    border-style: solid;
+    border-width: 3px;
+    border-color: var(--secondary-color);
+   /* margin-top: -60px; */
+   float: right;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 5);
+    border-radius: 15px;
+    /* z-index: 3; */
+    /* position: absolute; */
+   
+}
 
 
 .hero-form {
-    background-color: rgba(252, 252, 56, 0.8);
-    padding: 20px;
-    width: 40%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px 50px 50px 50px;
+    width: 80%;
+    
     color: var(--secondary-color);
     border-style: solid;
     border-width: 3px;
     border-color: var(--secondary-color);
     bottom: 120px;
-    right: 140px;
-    margin: 3.5%;
+    /* right: 140px; */
+   
     box-shadow: 0 0 10px rgba(0, 0, 0, 5);
     border-radius: 15px;
 }
@@ -395,73 +470,24 @@ body p {
     margin: 0px;
 }
 
-.hero-form {
-    margin: 5px 0 15px 0;
-}
-.test-words {
 
-	width: 500px;
-	margin-left: 10px;
-	padding: 1rem;
-	background-color: transparent;
-	background-image: linear-gradient(
-			-45deg,
-			transparent,
-			transparent 2%,
-			white 2%,
-			white 85%,
-			transparent,
-			85%,
-			transparent
-		),
-		linear-gradient(to bottom right, #2ad, #2ad 90%, transparent 90%);
-	background-position: top left, 0.2em 0.2em;
-	background-repeat: no-repeat;
-	filter: drop-shadow(0 0 15px #0005);
-}
-
-
-
-.test-words::before,
-.test-words::after {
-	position: absolute;
-	z-index: -1;
-	display: block;
-	width: 3rem;
-	height: 4rem;
-	content: "";
-	z-index: 0;
-	font-size: 8rem;
-	font-family: Georgia, Times, Garamond, serif;
-}
-
-.test-words::before {
-	top: -2rem;
-	left: 1rem;
-	content: open-quote;
-}
-
-.test-words::after {
-	bottom: -1rem;
-	right: 1rem;
-	content: close-quote;
-}
-
-.test-words::before,
-.test-words::after,
-.test-words h2 {
-	text-shadow: -2px 2px #fff, -1.5px 1.5px #fff, -1px 1px #fff, -0.5px 0.5px #fff;
-}
 
 h2 {
 	margin-block-end: 1rem;
 }
 
-p {
-	margin-block-start: 1rem;
-	text-indent: 2ch;
-}
 
+
+.compareheader {
+    color: #000000;
+    font-size: 1.0em;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
+    text-align:center;    
+
+}
 
 
 
@@ -672,6 +698,18 @@ p {
     color: var(--primary-color);
 }
 
+.heroTwo {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-image: url("../images/green-vs-red.png");
+    background-size: 52% auto;
+    background-position: 50% 5%;
+    background-repeat: no-repeat;
+    height: 400px;
+
+}
 
 .contact-info iframe {
     height: 400px;
@@ -1115,8 +1153,7 @@ p {
   
 
     .hero-cta{
-        
-  
+          
      }
 
     .hero-cta-two{

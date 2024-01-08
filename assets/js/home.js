@@ -131,6 +131,6 @@ function businessBtn() {
 
 
         
-        setInterval(showBanner, 12000);
+     //   setInterval(showBanner, 0);
         
         
