@@ -664,7 +664,7 @@ body p {
 
 
 .section-title {
-    font-size: 30px;
+    font-size: 1.7em;
     color: var(--secondary-color);
     border-bottom: 3px solid;
     padding-bottom: 20px;
@@ -1267,6 +1267,15 @@ body p {
 
 }
 
+.auto-insurance-text {
+    color: black;
+    width: 20%;
+    /* position: relative; */
+    /* top: 50%; */
+    /* transform: translateY(-50%); */
+    /* height: 50px; */
+}
+
 
 .specialWord {
     font-size: 1.0em;
@@ -1283,14 +1292,14 @@ body p {
   }
 
 .section-title {
-    font-size: 30px;
+    font-size: 1.2em;
     color: var(--secondary-color);
     border-bottom: 3px solid;
     padding-bottom: 20px;
     text-align: center;
     margin: 0 auto 35px auto;
     width: 100%;
-    background-color: orange;
+    /* background-color: orange; */
     border-radius: 20px;
 
 }
@@ -1335,6 +1344,7 @@ font-size: large;
 .auto-insurance-text {
     color: black;
     width: 80%;
+    margin-top: 20px;
     /* position: relative; */
     /* top: 50%; */
     /* transform: translateY(-50%); */
@@ -1343,7 +1353,7 @@ font-size: large;
 
 .logonav {
     /* align-items: right; */
-        width: 30%;
+        width: 20%;
         /* margin-bottom: -10px; */
         
     }
