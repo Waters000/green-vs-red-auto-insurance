@@ -21,13 +21,7 @@ h3 {
     font-size: 3em;
 }
 
-.auto-insurance-text {
-    color: black;
-    position: relative;
-    /* top: 50%; */
-    /* transform: translateY(-50%); */
-    height: 50px;
-}
+
 
 .updateauto {
     background-color: rgb(255, 255, 255);
@@ -36,17 +30,6 @@ h3 {
     color: rgb(0, 0, 0);
 }
 
-.whydoes {
-    padding-bottom: 30px;
-    color: #000000;
-    font-size: 1.5em;
-    text-align: center;
-    /* font-style: italic; */
-    font-weight: bold;
-    text-shadow:1px 1px 10px #fffb0b, 1px 1px 10px #ccc;
-   text-align: right;
-   
-}
 
 
 
@@ -54,7 +37,7 @@ h3 {
 
 /* padding top, right, bottom, left */
 header {
-    padding: 10px;
+    /* padding: 10px; */
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-wrap: wrap;
@@ -152,7 +135,7 @@ footer a {
 }
 
 section {
-  width: 80%;
+  /* width: 80%; */
     margin: 0 auto;
 }
 
@@ -163,11 +146,10 @@ align-items: right;
     
 }
 
-.logonav {
-    align-items: right;
-        height: 6rem;
-        
-    }
+
+
+
+
 
 /* Hero style image */
 .hero {
@@ -176,23 +158,33 @@ background-color: orange;
 margin: auto;
 }
 
-.hero-map {
-  width: 80%;
-  border-radius: 30px;
-    /* //centering the image */
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 
+.hero-form {
+    /* background-color: rgba(84, 1, 1, 0.8); */
+    padding: 20px 50px 50px 50px;
+    /* width: 80%; */
+    margin-top: 30px;
+    color: var(--secondary-color);
+    border-style: solid;
+    border-width: 3px;
+    border-color: var(--secondary-color);
+    bottom: 120px;
+    /* right: 140px; */
+   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 5);
+    border-radius: 15px;
+}
+
+.hero-map {
+    margin: auto;
+    /* width: 50%; */
+    border: 3px solid green;
+    padding: 10px;
 
 }
 
 .map-section {
-    width: 90%;
-    margin: auto;
-   position: relative;
-   z-index: 1;
-
+width: 100%;
 }
 
 
@@ -232,13 +224,63 @@ margin: auto;
   
 }
 
+.row {
+    display: flex;
+  }
+
+.columnOne {
+    flex: 20%;
+    text-align: left;
+    padding-left: 30px;
+  }
+
+
+.columnTwo {
+    flex: 80%;
+    text-align: center;
+    padding-right: 10px;
+    padding-top: 20px;
+  }
+  
+  
+
+
+
+.headerclass {
+    background-color: blue;
+    width: 100%;
+    /* padding-bottom: 30px; */
+}
+
+
+.auto-insurance-text {
+    color: black;
+    width: 80%;
+    /* position: relative; */
+    /* top: 50%; */
+    /* transform: translateY(-50%); */
+    /* height: 50px; */
+}
+
+.logonav {
+    /* align-items: right; */
+        width: 60%;
+        margin-bottom: -10px;
+        
+    }
+
+.compareautoratesdiv{
+    margin-bottom: 40px;
+}
+
+
 
 .btnFreeQuote{
-    background-color: rgba(56, 252, 66, 0.8);
+    background-color: rgba(172, 255, 38, 0.8);
     font-size: 2em;
     border-radius: 30px;
     padding: 20px;
-    margin-bottom: 80px;
+    /* margin-bottom: 800px; */
     font-weight: bold;
     box-shadow: 0 0 10px rgba(226, 252, 56, 0.8);
     border: 3px solid var(--secondary-color);
@@ -410,7 +452,7 @@ margin: auto;
 }
 
 .pricingList{
-    font-size: .4em;
+    font-size: .6em;
     color: black;
 }
 
@@ -432,10 +474,10 @@ a {
     
     font-style: italic;
     text-decoration: italic;
-    font-size: 55px;
+    font-size: 1.2em;
     color: #242802;
     text-shadow:1px 1px 20px #e6ff01, 1px 1px 10px #ccc;
-    font-size:48px;
+
     text-align:center;    
 }
 
@@ -455,8 +497,8 @@ body p {
     border-style: solid;
     border-width: 3px;
     border-color: var(--secondary-color);
-  /* position: absolute; */
-   /* margin-top: 10px; */
+  position: absolute;
+   margin-top: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 5);
     border-radius: 15px;
    
@@ -471,37 +513,37 @@ body p {
     border-style: solid;
     border-width: 3px;
     border-color: var(--secondary-color);
-   /* margin-top: -60px; */
+   margin-top: -60px;
    float: right;
     box-shadow: 0 0 10px rgba(0, 0, 0, 5);
     border-radius: 15px;
-    /* z-index: 3; */
+    z-index: 2;
+    position: absolute;
     /* position: absolute; */
    
 }
 
 
-.hero-form {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px 50px 50px 50px;
-    width: 80%;
-    
-    color: var(--secondary-color);
-    border-style: solid;
-    border-width: 3px;
-    border-color: var(--secondary-color);
-    bottom: 120px;
-    /* right: 140px; */
+.whydoes {
+    /* padding-bottom: 30px; */
+    color: #000000;
+    font-size: 1.5em;
+    text-align: center;
+    /* font-style: italic; */
+    font-weight: bold;
+    text-shadow:1px 1px 10px #fffb0b, 1px 1px 10px #ccc;
+   text-align: right;
    
-    box-shadow: 0 0 10px rgba(0, 0, 0, 5);
-    border-radius: 15px;
 }
+
+
+
 .hero-form button:hover {
     background-color: var(--tertiary-color);
 }
 
 .hero-form h3 {
-    font-size: 24px;
+    font-size: 1.7em;
     margin: 0px;
 }
 
@@ -529,6 +571,22 @@ body p {
 
 }
 
+.avgprice{
+    color: #000000;
+    /* font-size: 1.0rem; */
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
+    text-align:center;    
+    margin-bottom: 30px;
+    font-size: large;
+    width: 100%;
+  
+ 
+
+
+}
 
 
 .form-input {
@@ -606,13 +664,16 @@ body p {
 
 
 .section-title {
-    font-size: 48px;
+    font-size: 30px;
     color: var(--secondary-color);
     border-bottom: 3px solid;
     padding-bottom: 20px;
     text-align: center;
     margin: 0 auto 35px auto;
-    width: 100%;
+    width: 80%;
+    margin-top: 30px;
+    background-color: orange;
+    border-radius: 20px;
 }
 
 .primary-border {
@@ -899,8 +960,11 @@ body p {
       padding-bottom: 0;
       justify-content: center;
       position: relative;
+      width: 100%;
      
   }
+
+  
 
   .hero {
     margin-top: 30px;
@@ -961,6 +1025,10 @@ body p {
    section {
     padding: 30px 15px;
    }
+
+   .btnFreeQuote {
+    font-size: large;
+}
    .step h3 {
        flex: 1 100%;
        text-align: center;
@@ -1170,6 +1238,115 @@ body p {
 /*SMART PHONE ****  Media query for mobile phones and smaller */
 @media screen and (max-width: 575px) {
 
+.hero-form {
+    /* background-color: rgba(215, 8, 8, 0.8); */
+    width: 100%;
+    padding: 0%;
+    
+}
+
+.compareRatesmobile{
+    margin-bottom: 50px;
+}
+
+.compareautoratesdiv{
+    margin-bottom: 10px;
+}
+
+.updateauto {
+    margin-top: 0px;
+
+}
+
+.whydoes {
+    width: 100%;
+}
+
+.hero-map {
+    width: 100%;
+
+}
+
+
+.specialWord {
+    font-size: 1.0em;
+}
+
+.row {
+    display: flex;
+  }
+
+.columnOne {
+  
+    flex: 40%;
+   
+  }
+
+.section-title {
+    font-size: 30px;
+    color: var(--secondary-color);
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 100%;
+    background-color: orange;
+    border-radius: 20px;
+
+}
+
+.stateboxes {
+    width: 100%;
+    padding: auto;
+}
+
+.redstates {
+width: 100%;
+font-size: large;
+margin-bottom: 30px;
+
+}
+
+.greenstates {
+width: 100%;
+font-size: large;
+}
+
+.btnFreeQuote {
+    font-size: large;
+}
+
+
+.columnTwo {
+    flex: 70%;
+    text-align: center;
+    margin-top: -20px;
+  }
+  
+
+
+.headerclass {
+    background-color: blue;
+    width: 100%;
+    /* padding-bottom: 30px; */
+}
+
+
+.auto-insurance-text {
+    color: black;
+    width: 80%;
+    /* position: relative; */
+    /* top: 50%; */
+    /* transform: translateY(-50%); */
+    /* height: 50px; */
+}
+
+.logonav {
+    /* align-items: right; */
+        width: 30%;
+        /* margin-bottom: -10px; */
+        
+    }
 
 
 
